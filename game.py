@@ -2,7 +2,7 @@ import random
 
 class GuessNumber:
   def __init__(self, infinite):
-    self.infinity = infinite
+    self.infinite = infinite
 
   def guess(self):
     randomNumber = random.randint(0, 100)
